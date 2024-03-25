@@ -7,7 +7,7 @@ body{ height: 100vh;
     /* flex-direction: column; */
     justify-content:space-evenly ;
     align-items: center;
- background: url(/nature.jpg);
+ background: url(./nature.jpg);
  background-size: cover;
  background-position: center;
     /* color: white; */
