@@ -1,0 +1,14 @@
+@media (max-width=850px) {
+    .container{
+      height: 480px;
+      width: 400px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .btn{
+        height: 35px;
+        width: 130px;
+    }
+    
+}
