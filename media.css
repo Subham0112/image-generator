@@ -1,14 +1,64 @@
-@media (max-width=850px) {
+@media (max-width:850px) {
     .container{
-      height: 480px;
-      width: 400px;
+      height: 400px;
+      width: 320px;
     }
     .title{
-        font-size: 40px;
+        font-size: 38px;
     }
     .btn{
         height: 35px;
         width: 130px;
+        margin-bottom: 25px;
+    }
+    
+}
+@media (max-width:650px) {
+    .container{
+      height: 350px;
+      width: 270px;
+    }
+    .title{
+        font-size: 34px;
+    }
+    .discription{
+        font-size: 14px;
+      
+    }
+    .btn{
+        height: 32px;
+        width: 115px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:450px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly ;
+        align-items: center;
+     background: url(./nature.jpg);
+     background-size: cover;
+     background-position: center;
+    }
+    .container{
+      height: 300px;
+      width: 270px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .discription{
+        font-size: 15px;
+      
+    }
+    .btn{
+        height: 32px;
+        width: 110px;
+        margin-bottom: 10px;
+        font-size: 15px;
     }
     
 }
