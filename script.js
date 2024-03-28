@@ -2,7 +2,7 @@
 let imageShow=document.getElementById('img')
  function randomImg(){
     let i=Math.floor(Math.random()*1084)
-    let a=fetch(`https://picsum.photos/id/${i}/600/600`)
+    let a=fetch(`https://picsum.photos/id/${i}/440/540`)
     a.then(function(value){
       imageShow.src=value.url;
          console.log("id:"+ i)

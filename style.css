@@ -17,8 +17,8 @@ body{ height: 100vh;
     display: flex;
  justify-content: center;
  align-items: center;
-    height: 75%;
-    width: 80%;
+    height: 90%;
+    width: 85%;
     background: rgb(37, 32, 32);
     border-radius :20px; 
 }
@@ -33,11 +33,11 @@ body{ height: 100vh;
     font-size: 18px;
     color: white;
     background-color: brown;
-    border-radius: 20px;
+    border-radius: 15px;
     width: 150px;
     border: transparent;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin-top: 5px;
     box-shadow: 10px 10px 26px rgba(0, 0, 0, 0.39), -10px -10px 26px rgba(0, 0, 0, 0.39);
     font-family: 'Times New Roman', Times, serif;
 }
@@ -46,8 +46,8 @@ body{ height: 100vh;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  height: 580px;
-  width: 500px;
+  height: 600px;
+  width: 520px;
  backdrop-filter:blur(1px);
  box-shadow: 8px 8px 26px rgba(0, 0, 0, 0.356), -8px -8px 26px hsla(0, 0%, 0%, 0.356) ;
 }
@@ -57,8 +57,9 @@ body{ height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .discription{
+font-weight: 550;
     font-size: 16px;
-    color: rgb(0, 225, 255);
+    color: rgb(255, 253, 109);
     font-family: Arial, Helvetica, sans-serif;
 }
 .discription::selection{

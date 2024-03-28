@@ -14,12 +14,15 @@
     
 }
 @media (max-width:650px) {
+    body{
+        flex-direction: column;
+    }
     .container{
-      height: 350px;
-      width: 270px;
+      height: 420px;
+      width: 340px;
     }
     .title{
-        font-size: 34px;
+        font-size: 30px;
     }
     .discription{
         font-size: 14px;
@@ -43,14 +46,14 @@
      background-position: center;
     }
     .container{
-      height: 300px;
-      width: 270px;
+      height: 370px;
+      width: 290px;
     }
     .title{
-        font-size: 32px;
+        font-size: 30px;
     }
     .discription{
-        font-size: 15px;
+        font-size: 14px;
       
     }
     .btn{
